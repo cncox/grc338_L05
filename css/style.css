@@ -7,12 +7,14 @@ h1{
 	font-weight:600;
 	line-height:0px;
 	padding-top: 10px;
+	margin-left: 10px;
 }
 h2{
 	font-family: 'Muli', sans-serif;
 	font-size:30px;
 	font-weight:200;
 	line-height: 15px;
+	margin-left: 10px;
 }
 
 table{
@@ -106,3 +108,28 @@ a:active{
 
 /** form CSS **/
 
+h3{
+	font-family: 'Muli', sans-serif;
+	font-weight: 600;
+	line-height: 15px;
+} 
+
+label{
+	font-family: 'Muli', sans-serif;
+}
+
+fieldset{
+	border:none;
+}
+form{
+	padding:20px;
+}
+ 
+input:focus{  /** background color when button is clicked **/
+	background-color: green;
+}
+input:placeholder{
+	color:white;
+}
+
+/** end form CSS **/
