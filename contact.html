@@ -3,6 +3,7 @@
 <!-- begin header -->
 <head>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 <meta charset="UTF-8">
 <title>Contact Page</title>
 </head>
@@ -22,8 +23,10 @@
  </ul> 
  </nav>
  <!--end of naviation bar-->
+<!-- begin form -->
 <h1> Contact Us! </h1>
-	<fieldset> 
+<form>	
+    <fieldset> 
     	<label> First Name
         <input type="text" > 
         </label>
@@ -32,7 +35,8 @@
         </label>
    </fieldset>
    <fieldset>
-   		<label> Address
+   	 <p>
+     	<label> Address
         <input type="text" > 
         </label>
         <label> City
@@ -43,16 +47,53 @@
         </label>
         <label> Zip
         <input type="text">
-        </label>
-        <p> 
-        </p>
+        </label> 
+    </p>
+    <p>    
          <label> Phone Number
         <input type="text">
         </label> 
         <label> Email
         <input type="email">
         </label>
-
+    </p>
+   </fieldset>
+	<p>
+    <label> Gender:
+    	<input type="radio" name="gender">Male 
+        <input type="radio" name="gender">Female
+    </label>
+    </p>
+    <p>
+    <label> Favorite Color:
+    	<select name="Color">
+        	<option value="None Selected"
+            	selected="selected"> None Selected </option>
+            <option value="Blue"> Blue</option>
+            <option value="Green"> Green</option>
+            <option value="Yellow"> Yellow</option>
+            <option value="Red"> Red</option>
+            <option value="Purple"> Purple</option>
+        </select>
+    </label>
+    </p>
+   <fieldset>
+   	<legend> Billing Information </legend>
+    <label> Credit Card Number
+    	<input type="text" maxlength="16" placeholder="Enter Number"> 
+    </label>
+    <label> Expiration Date
+    	<input type="text" placeholder="Enter Number"> 
+    </label> 
+    <label> Security Card
+    	<input type="text" maxlength="4">  
+    </label>    
+   </fieldset>  
+ 	<p>
+	<input type="submit"> 
+    </p> 
+</form> 
+<!-- end form -->   
 </body>
 <!-- end body -->
 </html>
