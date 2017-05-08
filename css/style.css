@@ -110,7 +110,7 @@ a:active{
 
 h3{
 	font-family: 'Muli', sans-serif;
-	font-size:24px;
+	font-size:20px;
 	font-weight: bold;
 	line-height: 10px;
 } 
@@ -127,8 +127,8 @@ form{
 }
  
 input:focus{  /** background color when button is clicked **/
-	background-color: green;
-	color:white;
+	background-color: #EEEDD1;
+	
 }
 .card{
 	width: 40px;
